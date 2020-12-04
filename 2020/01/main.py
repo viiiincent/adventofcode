@@ -6,7 +6,6 @@ def read_input(file_path, cast):
     return lines
 
 def main(data):
-    # print(data)
     i = 0
     while i < len(data)-1:
         # print("i: {}".format(data[i]))

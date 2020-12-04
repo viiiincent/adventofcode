@@ -6,11 +6,6 @@ def read_input(file_path):
             lines.append([c for c in line.strip()])
     return lines
 
-# for line in f:
-#     for c in line:
-
-# c for line in f for c in line
-
 def main(data, slopes):
     map_width = len(data[0])
     map_height = len(data)
